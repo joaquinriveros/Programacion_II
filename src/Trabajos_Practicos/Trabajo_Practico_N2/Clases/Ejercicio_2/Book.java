@@ -1,4 +1,4 @@
-package Trabajos_Practicos.Trabajo_Practico_2.Clases.Ejercicio_2;
+package Trabajos_Practicos.Trabajo_Practico_N2.Clases.Ejercicio_2;
 public class Book implements toLend{
 
 	//Atributos
