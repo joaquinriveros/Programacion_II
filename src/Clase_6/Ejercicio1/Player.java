@@ -1,4 +1,4 @@
-package Ejercicio1;
+package Clase_6.Ejercicio1;
 
 public class Player {
     private String name;
