@@ -1,10 +1,12 @@
+package Clase_1.Diagnostico;
+
 import java.util.Scanner;
 
 public class Ejercicio_1 {
     public static void main(String[] args) {
         /*1.	Crea una calculadora simple en Java que pueda realizar operaciones
         básicas como suma, resta, multiplicación y división. El programa debe solicitar
-        al usuario que ingrese dos números y luego le permitirle elegir la operación que
+        al usuario que ingrese dos números y luego permitirle elegir la operación que
         desea realizar. Una vez completada la operación, debe mostrar el resultado al
         usuario. Cada operación debe implementarse en un método diferente. El programa
         principal debe llamar a estos métodos según la operación seleccionada por el
