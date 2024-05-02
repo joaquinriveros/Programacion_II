@@ -30,7 +30,7 @@ public class Athlete extends Person implements Contract {
 
     //Methods - Métodos
     @Override
-    public double calculateBMI(){return (weight / Math.pow(height,2));}
+    public double calculateBMI(){return weight / (height/100 * height/100);}
     @Override
     public boolean thereIsExtraWeight(double bmi){
         return bmi > 25;
@@ -38,3 +38,4 @@ public class Athlete extends Person implements Contract {
     @Override
     public double takePulses(){Random random = new Random();return (random.nextDouble(80 + 1) + 60);}
 }
+//índice de masa corporal(IMC) = body mass index(BMI)

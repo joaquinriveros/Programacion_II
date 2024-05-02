@@ -8,3 +8,4 @@ public interface Contract {
     public double takePulses();
 
 }
+//índice de masa corporal(IMC) = body mass index(BMI)

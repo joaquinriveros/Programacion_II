@@ -29,8 +29,8 @@ public class Main {
         Installation installation2 = new Installation("Nacional","Santa Fé","Gigante de Arroyito","Deportivo");
 
         // Creation of the Headquarters - Creación de las Sedes
-        Headquarters place1 = new Headquarters(1,"12/12/2024","15:35",installation1);
-        Headquarters place2 = new Headquarters(2,"15/10/2024","16:35",installation2);
+        Headquarters headquarters1 = new Headquarters(1,"12/12/2024","15:35",installation1);
+        Headquarters headquarters2 = new Headquarters(2,"15/10/2024","16:35",installation2);
 
 
         // Assignment of Athletes to Teams - Asignación de los Atletas en los Equipos
@@ -62,9 +62,9 @@ public class Main {
         test3.addCompetitor(athlete6);
 
         // Assignment of Tests to Venues - Asignación de las Pruebas a las Sedes
-        place1.addTest(test1);
-        place1.addTest(test2);
-        place2.addTest(test3);
+        headquarters2.addTest(test1);
+        headquarters1.addTest(test2);
+        headquarters2.addTest(test3);
 
         System.out.println("_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_");
 
