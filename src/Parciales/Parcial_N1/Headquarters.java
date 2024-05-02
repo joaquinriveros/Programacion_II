@@ -9,17 +9,17 @@ public class Headquarters {
     private int phase;
     private String date;
     private String hour;
-    private List <Test> itDoes;
-    private List <Installation> where;
+    private static List <Test> itDoes;
+    private static List <Installation> where;
 
     //Builder - Constructor
     public Headquarters(int phase, String date, String hour, Installation firstInstallation) {
         this.phase = phase;
         this.date = date;
         this.hour = hour;
-        this.itDoes = new ArrayList<>();
-        this.where = new ArrayList<>();
-        this.where.add(firstInstallation);
+        itDoes = new ArrayList<>();
+        where = new ArrayList<>();
+        where.add(firstInstallation);
     }
 
     //Getter y Setter
@@ -44,26 +44,26 @@ public class Headquarters {
         this.hour = hour;
     }
 
-    public List<Test> getItDoes() {
+    public static List<Test> getItDoes() {
         return itDoes;
     }
     public void setItDoes(List<Test> itDoes) {
-        this.itDoes = itDoes;
+        Headquarters.itDoes = itDoes;
     }
 
-    public List<Installation> getWhere() {
+    public static List<Installation> getWhere() {
         return where;
     }
     public void setWhere(List<Installation> where) {
-        this.where = where;
+        Headquarters.where = where;
     }
 
     //Methods - Métodos
     public void addTest(Test test){
-        this.itDoes.add(test);
+        itDoes.add(test);
     }
     public void addInstallation(Installation installation){
-        this.where.add(installation);
+        where.add(installation);
     }
 
 }
