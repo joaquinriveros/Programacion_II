@@ -7,9 +7,9 @@ public class Main {
     public static void main(String[] args) {
 
         // Creation of Athletes - Creación de los Atletas
-        Athlete athlete1 = new Athlete("Ignacio Bolt",33415693,39,1.80,75.8);
+        Athlete athlete1 = new Athlete("Ignacio Bolt",33415693,39,1.80,375.8);
         Athlete athlete2 = new Athlete("Mateo Williams",35151776,38,1.70,80.3);
-        Athlete athlete3 = new Athlete("Michael Phelps",39621494,29,1.85,70.2);
+        Athlete athlete3 = new Athlete("Michael Phelps",39621494,29,1.85,66.2);
         Athlete athlete4 = new Athlete("Agustin Vecino",44419323,20,1.66,65.2);
         Athlete athlete5 = new Athlete("Matias Fernandéz",30624520,26,1.83,80.2);
         Athlete athlete6 = new Athlete("Jeremías Gonzalez",33830564,25,1.69,65.3);
@@ -106,14 +106,22 @@ public class Main {
             System.out.println();
             for (int i = 0; i < 2; i++) {
                 System.out.println("_ Nombre del Atleta: " + team.getBelongs().get(i).getName());
-                if (team.getBelongs().get(i).thereIsExtraWeight(team.getBelongs().get(i).calculateBMI())) {
+                if (team.getBelongs().get(i).thereIsExtraWeight(team.getBelongs().get(i).calculateBMI())){
                     System.out.println("¡¡Tiene peso extra!!");
-                } else {
+                }else {
                     System.out.println("No tiene peso extra.");
                 }
             }
+        }
+        System.out.println("_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_");
+
+        // Frecuencia cardiaca de cada atleta.
+        for (Athlete athlete : team1.getBelongs() ) {
+            System.out.println("El atleta "+athlete.getName()+
+                    " tiene una pulsación de "+athlete.takePulses());
         }
 
         System.out.println("_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_");
     }
 }
+//Profe se me complico con el peso extra de los atletas y no logre encontrar el error
