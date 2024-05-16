@@ -1,0 +1,14 @@
+{
+    "nombre":"Jose",
+    "apellido":"Fausti",
+    "telefono":2634592686,
+    "email":"Joseemilianofausti@gmail.com",
+    "fecha_nacimiento":"19/03/2001",
+    "hermano":{
+        "nombre":"Giuliano",
+        "apellido":"Fausti",
+        "telefono":2634592686,
+        "email":"Giulianofausti@gmail.com",
+        "fecha_nacimiento":"13/04/2004"
+    }
+}
