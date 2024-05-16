@@ -1,4 +1,4 @@
-package Ejercicios_Clase_8.Ejercicio_tp3_en_clase.Ejercicio_5;
+package Clase_8.Ejercicio_tp3_en_clase.Ejercicio_5;
 
 public class Tasks {
     private String description;

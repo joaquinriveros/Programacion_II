@@ -1,4 +1,4 @@
-package Ejercicios_Clase_10;
+package Clase_10;
 
 import java.time.LocalDate;
 

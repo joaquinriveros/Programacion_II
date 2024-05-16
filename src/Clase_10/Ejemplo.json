@@ -1,14 +1,14 @@
 {
-    "nombre":"Jose",
-    "apellido":"Fausti",
-    "telefono":2634592686,
-    "email":"Joseemilianofausti@gmail.com",
-    "fecha_nacimiento":"19/03/2001",
+    "nombre":"Joaquin",
+    "apellido":"Riveros",
+    "telefono":2613420406,
+    "email":"joakocarp18@gmail.com",
+    "fecha_nacimiento":"12/12/2002",
     "hermano":{
-        "nombre":"Giuliano",
-        "apellido":"Fausti",
-        "telefono":2634592686,
-        "email":"Giulianofausti@gmail.com",
-        "fecha_nacimiento":"13/04/2004"
+        "nombre":"Andres",
+        "apellido":"Riveros",
+        "telefono":2614543212,
+        "email":"andres-riveros@gmail.com",
+        "fecha_nacimiento":"01/06/2011"
     }
 }

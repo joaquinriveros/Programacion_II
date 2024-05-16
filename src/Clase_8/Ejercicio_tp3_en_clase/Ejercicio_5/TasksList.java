@@ -1,4 +1,4 @@
-package Ejercicios_Clase_8.Ejercicio_tp3_en_clase.Ejercicio_5;
+package Clase_8.Ejercicio_tp3_en_clase.Ejercicio_5;
 
 import java.util.ArrayList;
 import java.util.Comparator;
